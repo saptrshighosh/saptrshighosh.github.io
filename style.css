@@ -55,8 +55,15 @@ header li {
     height: 150px;
 }
 */
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .school-logo {
-    width: 150px;
+    width: 200px;
     height: auto;
     margin: 10px;
 }

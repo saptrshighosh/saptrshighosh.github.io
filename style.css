@@ -55,7 +55,11 @@ header li {
     height: 150px;
 }
 */
-
+.school-logo {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
 h1, h2, h3 {
     color: #333;
 }

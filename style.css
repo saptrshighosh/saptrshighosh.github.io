@@ -17,7 +17,6 @@ header {
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    /* border-bottom: #77aaff 3px solid; */
 }
 
 header a {
@@ -49,7 +48,6 @@ header li {
     margin-bottom: 20px;
 }
 
-
 .logos {
     display: flex;
     justify-content: center;
@@ -62,6 +60,7 @@ header li {
     height: auto;
     margin: 20px;
 }
+
 h1, h2, h3 {
     color: #333;
 }

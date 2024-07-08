@@ -47,13 +47,14 @@ header li {
     margin-bottom: 20px;
 }
 
-.profile-pic {
+/* .profile-pic {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
+*/
 
 h1, h2, h3 {
     color: #333;

@@ -84,7 +84,7 @@ contact+='''<section class="section contact-layout"><div class="contact-primary"
 
 pages=[('index.html','Machine Learning & AI','Saptrshi Ghosh: machine learning, AI, computer vision, and scientific computing. Electrical and Computer Engineering PhD student at the University of Oklahoma.',overview),('projects.html','Projects','LLM prompt engineering, Python machine learning, computer vision, graph algorithms, and software projects by Saptrshi Ghosh.',projects),('research.html','Research','Empirical machine learning, model evaluation, spectral classification, EEG analysis, manuscripts, and research experience.',research),('background.html','Background & Skills','Education, ML and programming skills, AI and cloud training, teaching, fellowships, and leadership.',background),('contact.html','Contact','Contact Saptrshi Ghosh about ML research, applied AI, LLM applications, computer vision, and research internships.',contact)]
 for filename,title,description,body in pages:
-    (ROOT/filename).write_text(page(filename,title,description,body))
+    (ROOT/filename).write_text(page(filename,title,description,body)+"\n")
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{SITE}/{p[0]}</loc></url>' for p in pages)+'</urlset>\n')
 (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
 (ROOT/'.nojekyll').touch()

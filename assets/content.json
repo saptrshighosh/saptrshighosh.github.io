@@ -1,0 +1,504 @@
+{
+  "projects": [
+    {
+      "id": "llm-prompts",
+      "title": "Prompt engineering with instruction-tuned LLMs",
+      "category": "LLMs & NLP",
+      "kind": "Independent project",
+      "stack": [
+        "Python",
+        "Prompt engineering",
+        "LLMs"
+      ],
+      "description": "Explored prompt-engineering techniques for instruction-tuned language models through an implemented project.",
+      "detail": "Connects hands-on prompt work with training in the OpenAI API and AI Agents in LangGraph. My current interests include evaluating model behavior, retrieval-augmented generation, and agentic workflows.",
+      "evidence": "Implemented project; API and agent foundations from coursework.",
+      "repo": "ChatGPT-Prompt-Engineering---Instruction-Tuned-LLM",
+      "public": false
+    },
+    {
+      "id": "spectral-ml",
+      "title": "Spectral classification & model evaluation",
+      "category": "Machine learning",
+      "kind": "Doctoral research",
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "Statistics"
+      ],
+      "description": "Developed preprocessing, feature-extraction, and evaluation pipelines for approximately 5,000 Raman/SERS spectra across four cancer cell lines.",
+      "detail": "Compared SVM, Random Forest, neural networks, and discriminant-analysis methods. Used biological sample-level splitting, with data-dependent preprocessing and model tuning fitted on training data only.",
+      "evidence": "Reported 95% classification accuracy on this research dataset; evaluated with ROC/AUC and confusion matrices.",
+      "research": "research.html#spectral-ml"
+    },
+    {
+      "id": "tem",
+      "title": "Scale-normalized blob stability for TEM images",
+      "category": "Computer vision",
+      "kind": "Research project",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "scikit-image"
+      ],
+      "description": "Built a nanoparticle-segmentation pipeline with contrast enhancement, denoising, threshold optimization, and quantitative blob analysis.",
+      "detail": "Implemented CLAHE, morphological cleanup, and connected-component labeling. Compared segmentation figures, intensity histograms, and blob-stability score curves.",
+      "evidence": "Quantitative method comparison; no benchmark score claimed."
+    },
+    {
+      "id": "disaster-tweets",
+      "title": "NLP with Disaster Tweets",
+      "category": "LLMs & NLP",
+      "kind": "Kaggle project",
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "Pandas"
+      ],
+      "description": "Built a tweet-classification model with text preprocessing, feature engineering, and quantitative evaluation.",
+      "detail": "Applied natural-language processing methods to a supervised classification task. This is an NLP project, separate from my LLM prompt-engineering work.",
+      "evidence": "Implemented classification workflow.",
+      "repo": "NLP-With-Disaster-Tweets",
+      "public": false
+    },
+    {
+      "id": "digit-recognizer",
+      "title": "Digit Recognizer",
+      "category": "Computer vision",
+      "kind": "Kaggle project",
+      "stack": [
+        "Python",
+        "Keras",
+        "Neural networks"
+      ],
+      "description": "Built an image-classification model for handwritten-digit recognition, including preprocessing and model evaluation.",
+      "detail": "Applied neural-network methods to the Kaggle Digit Recognizer task.",
+      "evidence": "Implemented image-classification workflow.",
+      "repo": "Digit-Recognizer",
+      "public": false
+    },
+    {
+      "id": "spaceship-titanic",
+      "title": "Spaceship Titanic",
+      "category": "Machine learning",
+      "kind": "Kaggle project",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Classification"
+      ],
+      "description": "Completed a tabular-classification project with preprocessing, feature engineering, and model comparison.",
+      "detail": "Worked through the data-to-model workflow for the Spaceship Titanic classification task.",
+      "evidence": "Completed project; no competition rank claimed."
+    },
+    {
+      "id": "gesture-control",
+      "title": "Volume Hand Control",
+      "category": "Computer vision",
+      "kind": "Software project",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Real-time interaction"
+      ],
+      "description": "Built a computer-vision application that maps hand gestures to system volume control in real time.",
+      "detail": "Connected visual input with a practical system action through a gesture-based interface.",
+      "evidence": "Working interaction prototype.",
+      "repo": "Volume-Hand-Control",
+      "public": true
+    },
+    {
+      "id": "dijkstra",
+      "title": "Dijkstra maze solver",
+      "category": "Algorithms & computing",
+      "kind": "Independent project",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Graph algorithms"
+      ],
+      "description": "Implemented and visualized Dijkstra’s shortest-path algorithm for a complex maze.",
+      "detail": "Used graph traversal and visualization to make shortest-path search understandable.",
+      "evidence": "Implemented algorithm and visualization.",
+      "repo": "Shortest-Path-in-a-Complex-Maze-Puzzle-using-Dijkstra-s-algorithm-visualization-",
+      "public": false
+    },
+    {
+      "id": "eeg",
+      "title": "EEG analysis & statistical inference",
+      "category": "Machine learning",
+      "kind": "Master’s research",
+      "stack": [
+        "MATLAB",
+        "EEG / ERP",
+        "Hypothesis testing"
+      ],
+      "description": "Analyzed Stroop-task EEG data from 29 participants to study thermal effects on cognitive inhibition.",
+      "detail": "Used event-related potentials, time-frequency decomposition, ANOVA, Welch’s t-tests, Pearson correlation, and Benjamini–Hochberg correction.",
+      "evidence": "Identified temperature-dependent differences with adjusted p < 0.05.",
+      "research": "research.html#eeg"
+    },
+    {
+      "id": "zen-reader",
+      "title": "Zen Reader",
+      "category": "Software",
+      "kind": "Browser extension",
+      "stack": [
+        "JavaScript",
+        "HTML / CSS",
+        "Chrome"
+      ],
+      "description": "Built a Chrome extension to improve webpage readability and reduce eye strain.",
+      "detail": "Applied typography, spacing, and reading-focused presentation to a browser experience.",
+      "evidence": "Implemented browser extension.",
+      "repo": "Zen-Reader-Extension",
+      "public": true
+    },
+    {
+      "id": "todo",
+      "title": "ToDo App",
+      "category": "Software",
+      "kind": "Web application",
+      "stack": [
+        "JavaScript",
+        "HTML / CSS"
+      ],
+      "description": "Built a task-management application with add, complete, and delete interactions.",
+      "detail": "Implemented everyday application behavior with a lightweight web stack.",
+      "evidence": "Implemented application.",
+      "repo": "ToDo-App",
+      "public": true
+    },
+    {
+      "id": "mini-cad",
+      "title": "Mini-CAD for teachers",
+      "category": "Algorithms & computing",
+      "kind": "Educational prototype",
+      "stack": [
+        "MATLAB",
+        "Geometry",
+        "Visualization"
+      ],
+      "description": "Designed an educational CAD-style tool for high-school teachers.",
+      "detail": "Supported geometric modeling, visualization, and demonstrations of engineering-design concepts.",
+      "evidence": "Educational software prototype."
+    },
+    {
+      "id": "numerical",
+      "title": "Numerical simulation & validation",
+      "category": "Algorithms & computing",
+      "kind": "Academic projects",
+      "stack": [
+        "MATLAB",
+        "Finite differences",
+        "Validation"
+      ],
+      "description": "Solved heat-transfer and wave-force response problems with finite-difference methods.",
+      "detail": "Checked numerical results using grid-independence testing and theoretical comparisons.",
+      "evidence": "Validated numerical solutions; no speedup claimed."
+    },
+    {
+      "id": "airfoil",
+      "title": "Adjoint-based airfoil optimization",
+      "category": "Algorithms & computing",
+      "kind": "Undergraduate thesis",
+      "stack": [
+        "ANSYS Fluent",
+        "CFD",
+        "Optimization"
+      ],
+      "description": "Studied aerodynamic shape optimization of the NACA 4412 airfoil at zero angle of attack and stall conditions.",
+      "detail": "Used adjoint sensitivity analysis to evaluate geometric changes and lift-to-drag behavior.",
+      "evidence": "Completed undergraduate thesis."
+    },
+    {
+      "id": "viv",
+      "title": "Vortex-induced vibration simulation",
+      "category": "Algorithms & computing",
+      "kind": "Undergraduate research",
+      "stack": [
+        "CFD",
+        "Numerical modeling"
+      ],
+      "description": "Led a team of three modeling circular cylinders in parallel and tandem arrangements.",
+      "detail": "Investigated flow behavior and the dependence of skin-friction drag on cylinder aspect ratio.",
+      "evidence": "Numerical study and faculty-facing research reports."
+    },
+    {
+      "id": "step-wells",
+      "title": "Step-well location mapping",
+      "category": "Software",
+      "kind": "Data visualization",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Folium"
+      ],
+      "description": "Mapped historical Indian step-wells from longitude and latitude coordinates.",
+      "detail": "Built an interactive geospatial visualization from structured location data.",
+      "evidence": "Implemented mapping project.",
+      "repo": "Locate-Step-Wells-in-India-using-Longitude-and-Latitude",
+      "public": false
+    },
+    {
+      "id": "web-scraping",
+      "title": "Web data extraction",
+      "category": "Software",
+      "kind": "Data projects & training",
+      "stack": [
+        "Python",
+        "Beautiful Soup",
+        "Scrapy",
+        "Selenium"
+      ],
+      "description": "Worked with Python web-scraping tools for structured data extraction, cleaning, and export.",
+      "detail": "Complements SQL and data-analysis training with practical data collection.",
+      "evidence": "Project and training experience."
+    },
+    {
+      "id": "movie-search",
+      "title": "Movie Search Website",
+      "category": "Software",
+      "kind": "Web application",
+      "stack": [
+        "JavaScript",
+        "HTML / CSS",
+        "API"
+      ],
+      "description": "Built a website for searching movie information by title.",
+      "detail": "Connected a browser interface with a public movie-data API.",
+      "evidence": "Implemented web project.",
+      "repo": "movie-search-website",
+      "public": false
+    },
+    {
+      "id": "small-tools",
+      "title": "Small tools & interface experiments",
+      "category": "Software",
+      "kind": "Independent projects",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "HTML / CSS"
+      ],
+      "description": "Built a tally counter, arithmetic calculator, password generator, and number-guessing game.",
+      "detail": "Early projects in input handling, application logic, and user interaction.",
+      "evidence": "Implemented learning projects; no security certification claimed."
+    },
+    {
+      "id": "diabetes",
+      "title": "Diabetes prediction with multilayer perceptrons",
+      "category": "Machine learning",
+      "kind": "Learning project",
+      "stack": [
+        "Python",
+        "Neural networks"
+      ],
+      "description": "Explored classification with multilayer perceptrons on a diabetes-prediction task.",
+      "detail": "An early applied machine-learning notebook project.",
+      "evidence": "Learning project; no clinical validation claimed.",
+      "repo": "Predicting-Diabetes-with-Multilayer-Perceptrons",
+      "public": false
+    }
+  ],
+  "skills": [
+    [
+      "Machine learning & evaluation",
+      "scikit-learn · TensorFlow · Keras · supervised and unsupervised learning · neural networks · NLP · classification · feature engineering · model comparison · ROC/AUC · sensitivity / specificity · confusion matrices"
+    ],
+    [
+      "LLMs & agent foundations",
+      "Instruction-tuned LLM prompt engineering · OpenAI API · AI Agents in LangGraph coursework · ChatGPT API systems coursework"
+    ],
+    [
+      "Programming & software",
+      "Python · C / C++ · MATLAB · SQL · R · JavaScript · HTML / CSS · Git / GitHub · data structures and algorithms · Jupyter · browser extensions"
+    ],
+    [
+      "Statistics & experimental design",
+      "ANOVA · Student’s and Welch’s t-tests · Pearson correlation · Benjamini–Hochberg correction · hypothesis testing · Mahalanobis-distance outlier detection · chi-square thresholding"
+    ],
+    [
+      "Data & scientific computing",
+      "NumPy · Pandas · SciPy · Matplotlib · Seaborn · JMP · OriginPro · MATLAB optimization and parallel computing · NetworkX · correlation networks"
+    ],
+    [
+      "Signal & image processing",
+      "OpenCV · scikit-image · ImageJ · EEGLab · EEG / ERP · time-frequency analysis · CLAHE · segmentation · connected components · LabVIEW · GNU Octave"
+    ],
+    [
+      "Spectral & dimensionality analysis",
+      "ALS baseline correction · Savitzky–Golay smoothing · normalization · peak selection and intensity ratios · PCA · LDA · PLS-DA · SVM-DA · Random Forest · ANN · UMAP · hierarchical clustering · Scanpy · AnnData · diffusion pseudotime"
+    ],
+    [
+      "Data collection & cloud foundations",
+      "Beautiful Soup · Scrapy · Selenium · Microsoft Learn modules in cloud computing, Azure architecture, compute, networking, AI concepts, and generative AI"
+    ],
+    [
+      "Engineering & communication",
+      "ANSYS Fluent / FEM · SolidWorks · PTC Creo · Fusion 360 · AutoCAD 2D · Aspen HYSYS · CAD / CAM / CAE · 3D printing · technical writing · teaching · project coordination"
+    ]
+  ],
+  "certifications": [
+    [
+      "AI Fluency for Students",
+      "Anthropic",
+      "Jun 2026",
+      "AI & data",
+      "https://verify.skilljar.com/c/t8szvo2dw6i6",
+      "Credential"
+    ],
+    [
+      "AI Agents in LangGraph",
+      "DeepLearning.AI",
+      "Feb 2025",
+      "AI & data",
+      "https://www.coursera.org/projects/ai-agents-in-langgraph",
+      "Course"
+    ],
+    [
+      "ChatGPT Prompt Engineering for Developers",
+      "DeepLearning.AI",
+      "Jun 2024",
+      "AI & data",
+      "https://www.coursera.org/projects/chatgpt-prompt-engineering-for-developers-project",
+      "Course"
+    ],
+    [
+      "Building Systems with the ChatGPT API",
+      "DeepLearning.AI",
+      "Jun 2024",
+      "AI & data",
+      "https://www.coursera.org/projects/building-systems-with-the-chatgpt-api-project",
+      "Course"
+    ],
+    [
+      "Machine Learning",
+      "Stanford University",
+      "Aug 2021",
+      "AI & data",
+      "https://www.coursera.org/account/accomplishments/certificate/XPFHLQJS4PWY",
+      "Credential"
+    ],
+    [
+      "Applied Machine Learning in Python",
+      "University of Michigan",
+      "Aug 2021",
+      "AI & data",
+      "https://www.coursera.org/account/accomplishments/certificate/MFZRMWTBAHBR",
+      "Credential"
+    ],
+    [
+      "SQL Essential Training",
+      "LinkedIn Learning",
+      "May 2024",
+      "AI & data",
+      "https://www.linkedin.com/learning/certificates/175b64288317ac9de86f2e3a841103fe40c8639c32e0c2b17b8d5871c5823a18/",
+      "Credential"
+    ],
+    [
+      "Web Scraping with Python",
+      "LinkedIn Learning",
+      "Feb 2024",
+      "AI & data",
+      "https://www.linkedin.com/learning/certificates/f6eacea06032ca3d1512932d727420f3efcf43d61301f38082481ac6cc53c925/",
+      "Credential"
+    ],
+    [
+      "R for Data Science: Analysis and Visualization",
+      "LinkedIn Learning",
+      "Feb 2024",
+      "AI & data",
+      "",
+      ""
+    ],
+    [
+      "Foundations: Data, Data, Everywhere",
+      "Google",
+      "Oct 2021",
+      "AI & data",
+      "",
+      ""
+    ],
+    [
+      "Programming for Everybody (Getting Started with Python)",
+      "University of Michigan",
+      "Aug 2021",
+      "AI & data",
+      "https://www.coursera.org/account/accomplishments/certificate/5ZGDTGYUPGAF",
+      "Credential"
+    ],
+    [
+      "C for Everyone: Programming Fundamentals",
+      "University of California, Santa Cruz",
+      "Nov 2020",
+      "AI & data",
+      "",
+      ""
+    ],
+    [
+      "Human Research — Group 1 Biomedical Research Investigators and Key Personnel",
+      "CITI Program",
+      "May 2026 · expires May 2029",
+      "Research & engineering",
+      "",
+      ""
+    ],
+    [
+      "Responsible Conduct of Research",
+      "CITI Program",
+      "May 2025 · expires May 2030",
+      "Research & engineering",
+      "",
+      ""
+    ],
+    [
+      "Human Subject Research — Social Behavioral Modules",
+      "CITI Program",
+      "Jan 2024 · expires Jan 2027",
+      "Research & engineering",
+      "",
+      ""
+    ],
+    [
+      "Writing in the Sciences",
+      "Stanford University",
+      "Nov 2024",
+      "Research & engineering",
+      "https://coursera.org/share/9b600bb88538ebe9c3453b541b9452bb",
+      "Credential"
+    ],
+    [
+      "Fundamental of Sensors",
+      "Indian Institute of Science",
+      "Dec 2025",
+      "Research & engineering",
+      "https://www.coursera.org/learn/fundamentals-of-sensors",
+      "Course"
+    ],
+    [
+      "Autodesk Fusion 360 Integrated CAD/CAM/CAE",
+      "Autodesk",
+      "Aug 2021",
+      "Research & engineering",
+      "https://www.coursera.org/account/accomplishments/certificate/ZPNB5K5JT9H7",
+      "Credential"
+    ],
+    [
+      "Supply Chain Planning",
+      "Rutgers University",
+      "Nov 2021",
+      "Research & engineering",
+      "https://www.coursera.org/account/accomplishments/certificate/XNZ7AE5WF2EQ",
+      "Credential"
+    ],
+    [
+      "Supply Chain Operations",
+      "Rutgers University",
+      "Nov 2021",
+      "Research & engineering",
+      "https://www.coursera.org/account/accomplishments/certificate/37D9GRR5GLGS",
+      "Credential"
+    ]
+  ]
+}

@@ -9,7 +9,7 @@ A lightweight, responsive portfolio for machine-learning research and applied AI
 - `index.html` — overview and selected work
 - `projects.html` — complete project catalog, category filters, and search
 - `research.html` — experience, research methods, manuscripts, and presentations
-- `background.html` — education, skills, training, teaching, awards, and service
+- `background.html` — education, skills, training, teaching, and awards
 - `contact.html` — contact information and areas of interest
 - `assets/` — shared CSS, progressive-enhancement JavaScript, content data, and favicon
 - `profile.jpg` — the sole content image, retained at its existing URL

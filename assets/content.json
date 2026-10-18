@@ -500,5 +500,60 @@
       "https://www.coursera.org/account/accomplishments/certificate/37D9GRR5GLGS",
       "Credential"
     ]
+  ],
+  "honors": [
+    {
+      "title": "NSF ART InTRO Academy Fellowship",
+      "date": "Aug 2026",
+      "issuer": "University of Oklahoma",
+      "description": "Research translation training through the Accelerating Research Translation (ART): InTRO initiative."
+    },
+    {
+      "title": "Clyde L. Farrar Endowed Scholarship",
+      "date": "May 2026",
+      "issuer": "University of Oklahoma"
+    },
+    {
+      "title": "William H. Barkow Scholarship",
+      "date": "May 2026",
+      "issuer": "University of Oklahoma"
+    },
+    {
+      "title": "Sooner Heritage Scholarship",
+      "date": "Apr 2026",
+      "issuer": "University of Oklahoma"
+    },
+    {
+      "title": "Phi Kappa Phi",
+      "date": "Oct 2025",
+      "issuer": "The Honor Society of Phi Kappa Phi"
+    },
+    {
+      "title": "Thomas I. Brown, Jr. Endowed Scholarship",
+      "date": "May 2025",
+      "issuer": "University of Oklahoma"
+    },
+    {
+      "title": "Leo & Virginia Cade Scholarship",
+      "date": "Apr 2025",
+      "issuer": "University of Oklahoma"
+    },
+    {
+      "title": "Tau Beta Pi",
+      "date": "Mar 2025",
+      "issuer": "Tau Beta Pi · University of Oklahoma, Alpha Chapter"
+    },
+    {
+      "title": "Gallogly College of Engineering Scholarship",
+      "date": "Jun 2024",
+      "issuer": "University of Oklahoma"
+    }
+  ],
+  "additional_honors": [
+    {
+      "title": "Nettie Vincent Boggs Graduate Fellowship",
+      "date": "2024",
+      "issuer": "University of Oklahoma"
+    }
   ]
 }

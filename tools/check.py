@@ -45,3 +45,10 @@ for old in ['PhD candidate','PhD Candidate','patent pending','GPA 3.5','cdn-cgi/
 for fact in ['biological sample-level','training-only','8.57 / 10','Aug 2023 – May 2025','Under revision']:
     assert fact in combined, f'Missing verified detail: {fact}'
 print(f'PASS: {len(pages)} pages, all local links/anchors, one profile image, 20 projects, and verified content invariants.')
+
+assert len(data["honors"]) == 9
+for h in data["honors"]:
+    assert h["title"].replace("&", "&amp;") in pages["background.html"].path.read_text(), h["title"]
+assert "id=\"community\"" not in combined
+assert "Leadership &amp; service" not in combined
+print("PASS: all nine LinkedIn honors present individually; leadership/service section removed.")
